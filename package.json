@@ -1,0 +1,29 @@
+{
+  "name": "aluraflix-desafio-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "dev": "ts-node-dev --respawn src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.6.1",
+    "@types/express": "^4.17.14",
+    "express": "^4.18.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^18.11.9",
+    "@types/typescript": "^2.0.0",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "prisma": "^4.6.1",
+    "typescript": "^4.9.3"
+  }
+}
